@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Caliburn.Micro.Core" Version="3.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Helper.Dictionary">
+      <HintPath>D:\User\Documents\Projects\source\repos\VitoBarra\MyLibrary\SharedLibrary\Helper.Dictionary\bin\Release\net5.0\Helper.Dictionary.dll</HintPath>
+    </Reference>
+    <Reference Include="IO.JsonFile">
+      <HintPath>D:\User\Documents\Projects\source\repos\VitoBarra\MyLibrary\SharedLibrary\IO.JsonFile\bin\Release\net5.0\IO.JsonFile.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
