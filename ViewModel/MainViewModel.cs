@@ -1,4 +1,6 @@
 ﻿using Caliburn.Micro;
+using Helper.Dictionary;
+using IO.JsonFile;
 using Microsoft.Win32;
 using MVVM.ViewModels;
 using System;
@@ -8,8 +10,6 @@ using System.Linq;
 using System.Text.Json.Serialization;
 using System.Windows;
 using System.Windows.Controls;
-using IO.JsonFile;
-using Helper.Dictionary;
 using static ToolDemocraci.ViewModel.EventObjectViewModel;
 
 namespace ToolDemocraci.ViewModel
